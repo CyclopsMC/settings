@@ -60,6 +60,10 @@
         "color": "ffffff"
     },
     {
+        "name": "more-information-needed",
+        "color": "f4b5d1"
+    },
+    {
         "name": "mc-1.8",
         "color": "c5def5"
     },
