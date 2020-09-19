@@ -64,6 +64,10 @@
         "color": "f4b5d1"
     },
     {
+        "name": "invalid-template",
+        "color": "f4b5d1"
+    },
+    {
         "name": "mc-1.8",
         "color": "c5def5"
     },
