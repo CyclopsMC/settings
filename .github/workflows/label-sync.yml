@@ -15,3 +15,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
           manifest: .github/labels.yml
+          repository: |
+              CyclopsMC/CyclopsCore
+              CyclopsMC/Flopper
+              CyclopsMC/StructuredCrafting
+              CyclopsMC/CapabilityProxy
+              CyclopsMC/CommonCapabilities
+              CyclopsMC/EverlastingAbilities
+              CyclopsMC/EnergeticSheep
+              CyclopsMC/ColossalChests
+              CyclopsMC/IconExporter
+              CyclopsMC/IntegratedDynamics
+              CyclopsMC/IntegratedDynamics-Compat
+              CyclopsMC/EvilCraft
+              CyclopsMC/EvilCraft-Compat
+              CyclopsMC/IntegratedTunnels
+              CyclopsMC/IntegratedTunnels-Compat
+              CyclopsMC/IntegratedCrafting
+              CyclopsMC/IntegratedTerminals
+              CyclopsMC/IntegratedTerminals-Compat
+              CyclopsMC/IntegratedREST
+          token: ${{ secrets.PAT }}

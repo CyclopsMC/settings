@@ -32,6 +32,8 @@
   color: f4b5d1
 - name: invalid-template
   color: f4b5d1
+- name: help-wanted
+  color: 1EA723
 - name: mc-1.8
   color: c5def5
 - name: mc-1.9
