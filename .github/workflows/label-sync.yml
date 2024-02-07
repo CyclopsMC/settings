@@ -35,4 +35,5 @@ jobs:
               CyclopsMC/IntegratedTerminals
               CyclopsMC/IntegratedTerminals-Compat
               CyclopsMC/IntegratedREST
+              CyclopsMC/IntegratedScripting
           token: ${{ secrets.PAT }}
