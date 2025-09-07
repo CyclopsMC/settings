@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - uses: micnncim/action-label-syncer@v1
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
@@ -34,4 +34,5 @@ jobs:
               CyclopsMC/IntegratedTerminals-Compat
               CyclopsMC/IntegratedREST
               CyclopsMC/IntegratedScripting
+              CyclopsMC/IntegratedMekanismics
           token: ${{ secrets.PAT }}
