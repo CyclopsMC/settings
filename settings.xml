@@ -1,0 +1,134 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+    <activeProfile>modmaven</activeProfile>
+    <activeProfile>blamejared</activeProfile>
+    <activeProfile>k-4u</activeProfile>
+    <activeProfile>shedaniel</activeProfile>
+    <activeProfile>minecraftforge</activeProfile>
+    <activeProfile>theillusivec4</activeProfile>
+    <activeProfile>terraformersmc</activeProfile>
+    <activeProfile>cursemaven</activeProfile>
+    <activeProfile>public</activeProfile>
+  </activeProfiles>
+
+  <profiles>
+
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/CyclopsMC/packages</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>modmaven</id>
+      <repositories>
+        <repository>
+          <id>modmaven</id>
+          <url>https://modmaven.dev/</url>
+        </repository>
+      </repositories>
+    </profile>
+    
+    <profile>
+      <id>blamejared</id>
+      <repositories>
+        <repository>
+          <id>blamejared</id>
+          <url>https://maven.blamejared.com/</url>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>k-4u</id>
+      <repositories>
+        <repository>
+          <id>k-4u</id>
+          <url>https://maven.k-4u.nl/</url>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>shedaniel</id>
+      <repositories>
+        <repository>
+          <id>shedaniel</id>
+          <url>https://maven.shedaniel.me/</url>
+        </repository>
+      </repositories>
+    </profile>
+    
+    <profile>
+      <id>minecraftforge</id>
+      <repositories>
+        <repository>
+          <id>minecraftforge</id>
+          <url>https://maven.minecraftforge.net/</url>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>theillusivec4</id>
+      <repositories>
+        <repository>
+          <id>theillusivec4</id>
+          <url>https://maven.theillusivec4.top/</url>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>terraformersmc</id>
+      <repositories>
+        <repository>
+          <id>terraformersmc</id>
+          <url>https://maven.terraformersmc.com/</url>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>cursemaven</id>
+      <repositories>
+        <repository>
+          <id>cursemaven</id>
+          <url>https://www.cursemaven.com/</url>
+        </repository>
+      </repositories>
+    </profile>
+
+    <profile>
+      <id>public</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+      </repositories>
+    </profile>
+
+  </profiles>
+
+  <servers>
+    <server>
+      <id>github</id>
+      <username>${GITHUB_USER}</username>
+      <password>${GITHUB_TOKEN}</password>
+    </server>
+  </servers>
+
+</settings>
